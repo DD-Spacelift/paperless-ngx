@@ -1,3 +1,13 @@
+const allowedFileTypes = ['image/png', 'image/jpeg', 'application/pdf'];
+const maxFileSize = 5 * 1024 * 1024; // 5 MB
+if (!allowedFileTypes.includes(file.type)) {
+  this.toastService.showError($localize`Invalid file type`);
+  return;
+}
+if (file.size > maxFileSize) {
+  this.toastService.showError($localize`File size exceeds the limit of 5 MB`);
+  return;
+}
 import { Component, OnDestroy, OnInit } from '@angular/core'
 import { AbstractControl, FormControl, FormGroup } from '@angular/forms'
 import {
