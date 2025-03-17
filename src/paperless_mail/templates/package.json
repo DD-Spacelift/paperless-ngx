@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.0.24"
+  },
+  "overrides": {
+    "picocolors@<=1.0.1": "1.0.1"
   }
 }
