@@ -12,7 +12,7 @@
     <img src="https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/png/Black%20logo%20-%20no%20background.png" width="50%">
   </picture>
 </p>
-
+trigger
 <!-- omit in toc -->
 
 # Paperless-ngx
